@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.fc-toolbar {
+	background: #fc3;
+	padding:15px 15px 10px;
+	margin-bottom:0px;
+	border: 1px solid #DDD;
+}
+.fc th {
+	background:#fbe7b2;
+	padding:7px;	
+}
+.fc-little-athletes-ec, .fc-rock-n-roll {
+	background-color: #555;
+	border-color: #ccc;
+	text-align:center;
+}
+.fc-event-alert {
+	color: #555;
+	background-image: url(/css/images/typography/alert.png);
+	border: 1px solid #F8C9BB;
+	font-weight:bold;
+	text-align:center;
+}
+.fc-day-grid-event .fc-time {
+	font-weight:normal;
+}
+.fc-title {
+	display: inline-block;
+}
+.fc-little-athletes-ec:hover, .fc-rock-n-roll:hover {
+	background-color: #fc0;
+}
+.fc-day-grid-event > .fc-content {
+	overflow:visible;
+	white-space: normal;
+}
+/*.fc-little-athletes-ec .fc-title {
+	display: inline;
+}*/
+.fc-event-hori .fc-little-athletes-ec,.fc-event-hori .fc-rock-n-roll {
+	color: #555;
+	background-image: url(/css/images/typography/alert.png);
+	border: 1px solid #F8C9BB;
+	text-align:center;
+	/*background-color: #fff7d2;
+	border: 1px solid #E4E4D5;*/
+}
+/*.fc-event-hori .fc-rock-n-roll .fc-event-title {
+	display: block;
+}*/
+
+.fc-little-athletes-alerts {
+	color: #555;
+	background-image: url(/css/images/typography/alert.png);
+	border: 1px solid #F8C9BB;
+	font-weight:bold;
+	text-align:center;
+	/*background-color: #fff7d2;
+	border: 1px solid #E4E4D5;*/
+}
+.fc-time {
+	font-weight: normal;
+	text-align: center;
+	/* border-bottom: solid 1px #ccc; */
+}
+
+.myCustomClass{
+    border-color: rgb(0,190,0);
+    background-color: #dedede;
+    border: 1px solid #999;
+    
+}
+.qtip-shadow {
+	box-shadow: 0px 0px 7px #999;
+}
+.myCustomClass .qtip-title {
+	background: #e6e6e6;
+	color: #333;
+}
+.myCustomClass .qtip-titlebar {
+	background: #e6e6e6;
+}
+.myCustomClass .qtip-content {
+	background: #fff;
+}
+.myCustomClass .qtip-close {
+	float:left;
+	margin-right: 10px;
+}
+
